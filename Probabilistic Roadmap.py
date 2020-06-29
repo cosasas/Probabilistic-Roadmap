@@ -1,14 +1,8 @@
-import random
-import math
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib.patches import Circle
 from scipy.spatial import cKDTree
 from scipy.spatial import distance
 import copy
-import matplotlib.animation as animation
-
-
 
 SAMPLES = 400
 
@@ -185,8 +179,7 @@ def random_samples(ox, oy, numberOfSamples):
     return sample_x, sample_y
      
 def main():
-
-
+    
     ox = []
     oy = []
 
